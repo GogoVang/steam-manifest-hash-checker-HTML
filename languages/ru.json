@@ -1,15 +1,15 @@
 {
     "app": {
-        "title": "Steam Manifest/SHA-1 Шашка",
+        "title": "Проверка манифестов Steam/SHA1",
         "themes": {
-            "dark": "Dark Theme",
-            "blue": "Blue Theme",
-            "light": "Light Theme",
-            "steam": "Steam Theme",
-            "synthwave": "Synthwave Theme",
-            "ocean": "Ocean Theme",
-            "forest": "Forest Theme",
-            "solarized": "Solarized Theme"
+            "dark": "Темная тема",
+            "blue": "Синяя тема",
+            "light": "Светлая тема",
+            "steam": "Тема Steam",
+            "synthwave": "Тема Synthwave",
+            "ocean": "Океанская тема",
+            "forest": "Лесная тема",
+            "solarized": "Соляризованная тема"
         },
         "folderToggle": {
             "hide": "Скрыть папки",
@@ -17,34 +17,30 @@
         }
     },
     "dropzones": {
-        "manifest": "Отбросьте Steam Manifest или файл SHA-1 сюда",
-        "orInput": "Или введите хэш SHA1 в текстовую область ниже",
-        "textareaPlaceholder": "SHA1 хэши здесь",
-        "folder": "Отбросьте папку для проверки здесь"
+        "manifest": "Перетащите манифест Steam или файл SHA1 сюда",
+        "folder": "Перетащите папку для проверки сюда"
     },
     "fileInfo": {
         "title": "Информация о файле",
         "type": "Тип",
-        "//comment":"ID депо",
-        "depotId": "Depot ID",
-        "//comment":"ID манифеста",
-        "manifestId": "Manifest ID",
+        "depotId": "ID депо (Depot ID)",
+        "manifestId": "ID манифеста",
         "creationDate": "Дата создания",
         "totalFiles": "Всего файлов",
         "status": "Статус",
         "totalSize": "Общий размер",
         "types": {
-            "steam": "Steam Manifest",
-            "sha1": "SHA-1 Файл"
+            "steam": "Манифест Steam",
+            "sha1": "Файл SHA1"
         }
     },
     "mismatches": {
-        "title": "Несоответствие файлов",
+        "title": "Несовпадающие файлы",
         "columns": {
             "filename": "Имя файла",
             "size": "Размер",
-            "expectedHash": "Ожидаемый Хеш",
-            "actualHash": "Фактический Хэш"
+            "expectedHash": "Ожидаемый хэш",
+            "actualHash": "Фактический хэш"
         }
     },
     "files": {
@@ -52,29 +48,29 @@
         "columns": {
             "filename": "Имя файла",
             "size": "Размер",
-            "hash": "Хеш",
+            "hash": "Хэш",
             "status": "Статус"
         }
     },
     "status": {
-        "match": "Соответствовать",
-        "mismatch": "Несоответствие",
-        "pending": "Ожидаемый",
+        "match": "Совпадение",
+        "mismatch": "Несовпадение",
+        "pending": "В ожидании",
         "folder": "Папка",
         "notStarted": "Не начато"
     },
     "progress": {
-        "matched": "Соответствие",
+        "matched": "Совпало",
         "speed": "Скорость",
-        "mbps": "MB/s"
+        "mbps": "МБ/с"
     },
     "errors": {
-        "loadManifest": "Сначала загрузите Manifest или файл SHA-1",
+        "loadManifest": "Сначала загрузите манифест или файл SHA1",
         "noFiles": "Файлы не выбраны",
-        "invalidFormat": "Недопустимый формат файла:",
-        "noValidHashes": "В файле не найдено допустимых хэшей SHA-1",
-        "fileMissing": "Пропажа файла",
-        "loadingError": "Ошибка при загрузке файла:",
+        "invalidFormat": "Неверный формат файла:",
+        "noValidHashes": "В файле не найдено допустимых хэшей SHA1",
+        "fileMissing": "Файл отсутствует",
+        "loadingError": "Ошибка загрузки файла:",
         "processingError": "Ошибка обработки файла:"
     },
     "ui": {
@@ -82,7 +78,7 @@
         "processing": "Обработка...",
         "folder": "Папка",
         "close": "Закрыть",
-        "cancel": "Отменить",
-        "confirm": "Подтвердите"
+        "cancel": "Отмена",
+        "confirm": "Подтвердить"
     }
 }
